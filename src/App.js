@@ -1,16 +1,18 @@
-import React from 'react';
+/** @format */
 
-import './App.css';
+import React from "react";
+
+import "./App.css";
 import Upload from "./uploader/Upload";
 
 function App() {
-  return (
-    <div>
-      <div className="content">
-        <Upload />
-      </div>
-    </div>
-  );
+	return (
+		<div>
+			<div className="content">
+				<Upload />
+			</div>
+		</div>
+	);
 }
 
 export default App;
